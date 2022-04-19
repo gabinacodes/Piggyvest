@@ -7,11 +7,11 @@ const Header = () =>{
  <header>
   <img src={logo} alt="logo"/>
 <div>
-<a>Save</a>
-  <a>Invest</a>
-  <a>Stories</a>
-  <a>FAQs</a>
-  <a>Login</a>
+<a href="#">Save</a>
+  <a  href="#">Invest</a>
+  <a  href="#">Stories</a>
+  <a  href="#">FAQs</a>
+  <a  href="#">Login</a>
 </div>
  <button>Create A Free Account</button>
  </header>
