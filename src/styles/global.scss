@@ -3,6 +3,7 @@
 button{
     @include btn
 }
-*{
-    @include font
+body{
+    @include font;
+    background-color: #083E9E;
 }

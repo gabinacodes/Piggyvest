@@ -1,7 +1,7 @@
 import React from "react";
 
 import logo from "../image/Piggyvest-logo.svg"
-import Styles from "../styles/modules/header.module.scss"
+import  "../styles/modules/header.module.scss"
 
 
 const Header = () =>{
