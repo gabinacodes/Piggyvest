@@ -3,6 +3,10 @@ header{
     justify-content: space-evenly;
     background-color: rgb(35, 35, 150);
     padding-top: 2%;
+    
+}
+img {
+    margin-left: -130px;
 }
 a{
     color: white;
@@ -14,8 +18,9 @@ button{
     height: 40px;
     background-color: white;
     color:rgb(35, 35, 150) ;
+    margin-right: -130px;
 
 }
-.nav{
+span.nav{
     padding-top: 3%;
 }
