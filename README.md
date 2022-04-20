@@ -2,7 +2,7 @@ Netlify:
 https://master--piggyvest-gab.netlify.app/
 Author:gabinacodes
 github:https://github.com/gabinacodes
-# Getting Started with Create React App
+# Geting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
