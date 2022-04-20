@@ -1,12 +1,12 @@
 import React from "react";
 
 import logo from "../image/Piggyvest-logo.svg"
-import  "../styles/modules/header.module.scss"
+import Styles from   "../styles/modules/header.module.scss"
 
 
 const Header = () =>{
     return(
- <header>
+ <header className={Styles.header}>
   <img src={logo} alt="logo"/>
 <span className="nav">
 <a href="http://www.google.com">Save</a>

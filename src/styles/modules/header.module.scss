@@ -1,11 +1,10 @@
-header{
+.header{
     display: flex;
     justify-content: space-evenly;
     padding: 2% 0;
     
-}
-img {
-    margin-left: -130px;
+    img {
+        margin-left: -130px;
 }
 a{
     color: white;
@@ -20,6 +19,7 @@ button{
     margin-right: -130px;
 
 }
-span{
+.nav{
     padding-top: 0.5%;
+}
 }
