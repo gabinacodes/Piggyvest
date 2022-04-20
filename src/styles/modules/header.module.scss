@@ -2,7 +2,7 @@ header{
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(35, 35, 150);
-    padding-top: 2%;
+    padding: 2% 0;
     
 }
 img {
@@ -14,13 +14,13 @@ a{
     margin-left: 3%;
 }
 button{
-    width: 150px;
+    width: 170px;
     height: 40px;
     background-color: white;
     color:rgb(35, 35, 150) ;
     margin-right: -130px;
 
 }
-span.nav{
-    padding-top: 3%;
+span{
+    padding-top: 0.5%;
 }
