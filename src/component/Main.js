@@ -1,7 +1,7 @@
 import React from 'react';
 import Styles from '../styles/modules/main.module.scss';
 import Images from '../image';
-
+import bg from '../image/bgimage.png'
 import security from '../data/security.js';
 import savings from '../data/savings';
 
@@ -62,15 +62,15 @@ function Main() {
           }
         </div>
       </div>
-      <div className={Styles.access}>
+      <div className={Styles.access} style={{ backgroundImage: `url(${bg})` }}>
         <div >
           <h5>Access investment opportunities</h5>
           <p>Grow your money confidently by investing in pre-vetted investment opportunities.</p>
           <p><bold>Learn more about Investments</bold></p>
         </div>
-        <div>
+       
           <img src={Images.phone} alt="phone"/>
-        </div>
+       
       </div>
       <div></div>
       <div></div>

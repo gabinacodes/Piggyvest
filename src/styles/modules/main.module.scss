@@ -113,5 +113,22 @@
     padding: 0% 300px;
 }
 .access{
-    background-image: url();
+ 
+    display: flex;
+    height: 30%;
+    position: relative;
+    top: 270px;
+    >img{
+        overflow-y: visible;
+        position:absolute;
+        top: -217px;
+        left: 599px;
+
+
+    }
+    >div{
+        width: 50%;
+        color: $white;
+
+    }
 }

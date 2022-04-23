@@ -144,6 +144,23 @@
 }
 
 .access {
-  background-image: url();
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30%;
+  position: relative;
+  top: 270px;
+}
+
+.access > img {
+  overflow-y: visible;
+  position: absolute;
+  top: -217px;
+  left: 599px;
+}
+
+.access > div {
+  width: 50%;
+  color: white;
 }
 /*# sourceMappingURL=main.module.css.map */
