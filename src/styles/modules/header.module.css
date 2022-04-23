@@ -1,0 +1,32 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 2% 0;
+}
+
+.header img {
+  margin-left: -130px;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  margin-left: 4%;
+}
+
+.header button {
+  width: 170px;
+  height: 40px;
+  background-color: white;
+  color: #232396;
+  margin-right: -130px;
+}
+
+.header .nav {
+  padding-top: 0.5%;
+}
+/*# sourceMappingURL=header.module.css.map */

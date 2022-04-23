@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,MAAM,CAAA;ECDF,MAAM,EAAE,UAAW;EACnB,aAAa,EAAE,aAAa;CDE/B;;AACD,AAAA,IAAI,CAAA;ECAA,WAAW,EAAE,qBAAqB;EDElC,gBAAgB,EAAE,OAAO;CAC5B",
+    "sources": [
+        "global.scss",
+        "mixin.scss"
+    ],
+    "names": [],
+    "file": "global.css"
+}

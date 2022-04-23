@@ -62,7 +62,16 @@ function Main() {
           }
         </div>
       </div>
-      <div></div>
+      <div className={Styles.access}>
+        <div >
+          <h5>Access investment opportunities</h5>
+          <p>Grow your money confidently by investing in pre-vetted investment opportunities.</p>
+          <p><bold>Learn more about Investments</bold></p>
+        </div>
+        <div>
+          <img src={Images.phone} alt="phone"/>
+        </div>
+      </div>
       <div></div>
       <div></div>
     </div>

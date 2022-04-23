@@ -11,8 +11,9 @@ import flex from "./flex-icon.png"
 import dollar from "./flex-dollar-icon.png"
 import safelock from  "./safelock-icon.svg"
 import saving from "./target-savings-icon.svg"
+import phone from "./save-PHONE.svg"
 const Images ={
-    mark, fatima, ellie, ayo, appstore,googleplay,key, bank,shine,dollar,flex,safelock, saving
+    mark, fatima, ellie, ayo, appstore,googleplay,key, bank,shine,dollar,flex,safelock, saving,phone
 }
 
 export default Images
