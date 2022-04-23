@@ -3,6 +3,7 @@ import Styles from '../styles/modules/main.module.scss';
 import Images from '../image';
 
 import security from '../data/security.js';
+import savings from '../data/savings';
 
 
 function Main() {
@@ -45,10 +46,20 @@ function Main() {
           }
          </div>
       </div>
-      <div>
-        <h1>5 ways to build your savings  </h1>
-        <div>
-          
+      <div className={Styles.ways}>
+        <h1 className={Styles.header3}>5 ways to build your savings  </h1>
+        <div className={Styles.content}>
+          {
+            savings.map((e)=>{
+              return(
+                <div>
+                 <div> <img src={e.img} alt={e.name}/>
+                  <h6>{e.name}</h6></div>
+                  <p>{e.content}</p>
+                </div>
+              )
+            })
+          }
         </div>
       </div>
       <div></div>

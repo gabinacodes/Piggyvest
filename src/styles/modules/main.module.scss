@@ -67,11 +67,13 @@
    justify-content: space-evenly;
   padding: 2%;
   text-align: left;
+  
   >div{
         width: 100%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        flex-wrap: wrap;
         >img{
             margin-left: 34px;
             height:50%;
@@ -81,4 +83,32 @@
         }
     }
   
+}
+.ways{
+ position: relative;
+ top: 270px;
+ background-color: $white;
+ padding: 6%;
+
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    >div{
+        width: 27%;
+        margin-right: 23px;
+        >div{
+            display: flex;
+            align-items: center;
+         >img{
+             height: 50%;
+         }  
+        }
+    }
+}
+.header3{
+    text-align: center;
+    color: $bgcolor;
+    padding: 0% 300px;
 }
