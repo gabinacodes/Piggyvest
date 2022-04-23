@@ -7,7 +7,7 @@ const security = [{
 },
 {
    name:"bank-logo",
-    img:Images.bank,
+    img:Images.shine,
     content:"Two-factor authentication (2FA) by default on all PiggyVest accounts, to securely protect you from unauthorised access and impersonation."
 }
 ];

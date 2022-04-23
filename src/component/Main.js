@@ -29,14 +29,16 @@ function Main() {
       <div className={Styles.div_importance}> 
         <h3 className={Styles.heading2}>Security comes First</h3>
         
-         <div>
+         <div className={Styles.flex_content} >
           {
           security.map((e)=>{
             return(
-             <div>
-              <img src={e.img} alt={e.content}/>
+             <div >
+              
+              <img src={e.img} alt={e.name}/>
               <div>{e.content}</div>
-             </div>
+              </div>
+             
             )
           })
           
