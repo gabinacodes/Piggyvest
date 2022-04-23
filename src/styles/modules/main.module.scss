@@ -115,9 +115,13 @@
 .access{
  
     display: flex;
-    height: 30%;
+    height: 100%;
     position: relative;
     top: 270px;
+    padding-bottom: 173px;
+    background-position-x: -265px;
+    background-position-y: -149px;
+
     >img{
         overflow-y: visible;
         position:absolute;
@@ -129,6 +133,15 @@
     >div{
         width: 50%;
         color: $white;
-
+     >h5{
+        font-size: 49px;
+        padding: 4% 8% 0;
+        margin: 18% 0% 0
+     }
+     >p{
+         font-size: 20px;
+         padding: 20px 48px;
+     }
     }
+    
 }

@@ -147,9 +147,12 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 30%;
+  height: 100%;
   position: relative;
   top: 270px;
+  padding-bottom: 173px;
+  background-position-x: -265px;
+  background-position-y: -149px;
 }
 
 .access > img {
@@ -162,5 +165,16 @@
 .access > div {
   width: 50%;
   color: white;
+}
+
+.access > div > h5 {
+  font-size: 49px;
+  padding: 4% 8% 0;
+  margin: 18% 0% 0;
+}
+
+.access > div > p {
+  font-size: 20px;
+  padding: 20px 48px;
 }
 /*# sourceMappingURL=main.module.css.map */
