@@ -26,17 +26,17 @@ function Main() {
          </div>
       </div>
       </div>
-      <div>
-        <h3>Security comes First</h3>
+      <div className={Styles.div_importance}> 
+        <h3 className={Styles.heading2}>Security comes First</h3>
         
          <div>
           {
           security.map((e)=>{
             return(
-             <>
-              <div>{e.img}</div>
+             <div>
+              <img src={e.img} alt={e.content}/>
               <div>{e.content}</div>
-             </>
+             </div>
             )
           })
           
