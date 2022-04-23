@@ -1,3 +1,4 @@
+@import "../variable.scss";
 @mixin position {
     position: absolute;
 }
@@ -30,7 +31,7 @@
     position: relative;
     width: 50%;
     text-align: center;
-    color: white;
+    color: $white;
     left: 25%;
     top: 48px;
 }
@@ -43,8 +44,8 @@
 .btn{
     width: 190px;
     height: 50px;
-    color: #083E9E;
-    background-color: white;
+    color: $bgcolor;
+    background-color:$white;
     margin-bottom: 5%;
     
 }
@@ -52,16 +53,17 @@
     margin-right: 2%;
 }
 .div_importance{
-    background-color: white;
+    background-color: $white;
     position: relative;
     top: 170px;
     text-align: center;
+    padding-top: 34px;
 
 
 }
 .heading2{
    font-size: 35px;
-   color: white;
-   
+   color: $bgcolor;
+
 
 }
