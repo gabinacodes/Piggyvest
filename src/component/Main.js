@@ -1,6 +1,11 @@
 import React from 'react';
 import Styles from '../styles/modules/main.module.scss';
 import Images from '../image';
+import Security from "../data/security.js"
+
+ 
+Security.forEach(option => 
+  push({value:option.content, label:option.content}))
 
 function Main() {
   return (
@@ -26,6 +31,16 @@ function Main() {
       <div>
         <h3>Security comes First</h3>
         
+         <div>
+           {
+             Security.map (security =>
+              <div key={security.content}>
+                <img src={security.img} alt="jgfcvm"/> 
+                <p $ {...security.content}>
+                </p>
+                </div>
+             )}
+         </div>
       </div>
       <div></div>
       <div></div>
