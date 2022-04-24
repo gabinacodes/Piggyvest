@@ -73,16 +73,18 @@ function Main() {
           <img src={Images.phone} alt="phone"/>
        
       </div>
-      <div>
+      <div className={Styles.testimonies}>
         <h4>Loved by our Customers</h4>
-        <div>
+        <div className={Styles.review_box}>
           {
             customers.map((e)=>{
               return(
                 <div>
+                  <div>
                   <img src={e.img} alt={e.name}/>
-                <div>{e.content}</div>
-                <p>{e.name}</p>
+                 <div>{e.content}</div>
+                  </div>
+                 <p>{e.name}</p>
                 </div>
               )
             })  

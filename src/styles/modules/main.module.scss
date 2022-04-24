@@ -1,4 +1,5 @@
 @import "../variable.scss";
+@import"../mixin.scss";
 @mixin position {
     position: absolute;
 }
@@ -144,4 +145,42 @@
      }
     }
     
+}
+.testimonies{
+    position: relative;
+    top: 290px;
+    margin-left: 6%;
+    >h4, >p{
+        text-align: center;
+        font-size: 30px;
+        color: $white;
+ 
+    }
+    >p{
+      font-size: 20px;
+    }
+}
+.review_box{
+    display: flex;
+    flex-wrap: wrap;
+    >div{
+        @include btn;
+        width: 40%;
+        border: 2px solid rgba(255, 255, 255, 0.651);
+        margin: 2%;
+        padding: 2% 1%;
+        color: $white;
+        >p{
+            margin:6%;
+            color: rgba(255, 255, 255, 0.404);
+        }
+       
+        >div{
+            display: flex;
+            justify-content: space-evenly;
+            >div{
+                width: 50%;
+            }
+        }
+    }
 }

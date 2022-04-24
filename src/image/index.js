@@ -17,9 +17,10 @@ import userpic from "./Userpic.png"
 import user2 from "./user2.png"
 import user3 from './user3.png'
 import user4 from './user4.png'
+import avatar from './avatarCombined.png'
 const Images ={
     mark, fatima, ellie, ayo, appstore,googleplay,key, bank,shine,dollar,flex,safelock, saving,phone,title,
-    userpic, user2, user3, user4
+    userpic, user2, user3, user4, avatar
 }
 
 export default Images
