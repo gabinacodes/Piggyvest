@@ -22,7 +22,7 @@ const savings =[
 },
 {
     img:Images.dollar,
-    name:"Dollar Savings",
+    name:"DOLLAR SAVINGS",
     content:'Save in foreign currencies such as USD and Euros.'
 }
 ]
