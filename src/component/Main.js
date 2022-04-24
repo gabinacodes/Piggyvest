@@ -92,7 +92,18 @@ function Main() {
         </div>
         <p>Read  more amazing stories</p>
       </div>
-      <div></div>
+      <div className={Styles.overview}>
+        <div>
+          <img src={Images.avatar} alt="avater"/>
+        </div>
+        <div className={Styles.history}>
+          <h4>1,000,000+ customers</h4>
+          <p>Since launching in 2016, over 1,000,000 people have used 
+            PiggyVest to manage their money better, avoid over-spending and be more accountable
+          </p>
+          <buton>Create A Free Account</buton>
+        </div>
+      </div>
     </div>
     </>
   );
