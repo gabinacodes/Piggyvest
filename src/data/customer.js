@@ -19,3 +19,4 @@ const customers = [{
     name:"OLOYEDE A"
 }
     ]
+export default customers
