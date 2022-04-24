@@ -4,6 +4,7 @@ import Images from '../image';
 import bg from '../image/bgimage.png'
 import security from '../data/security.js';
 import savings from '../data/savings';
+import customers from '../data/customer'
 
 
 function Main() {
@@ -73,12 +74,21 @@ function Main() {
        
       </div>
       <div>
-        <h4></h4>
+        <h4>Loved by our Customers</h4>
         <div>
           {
-            
+            customers.map((e)=>{
+              return(
+                <div>
+                  <img src={e.img} alt={e.name}/>
+                <div>{e.content}</div>
+                <p>{e.name}</p>
+                </div>
+              )
+            })  
           }
         </div>
+        <p>Read  more amazing stories</p>
       </div>
       <div></div>
     </div>
