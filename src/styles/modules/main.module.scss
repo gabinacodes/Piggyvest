@@ -150,7 +150,7 @@
     position: relative;
     top: 290px;
     margin-left: 6%;
-    >h4, >p{
+    >h4, >p, .section_header{
         text-align: center;
         font-size: 30px;
         color: $white;
@@ -213,4 +213,23 @@
     height: 130px;
     background-color: $bgcolor;
     padding: 5%;
+    color: $white;
+}
+.featured{
+    position: relative;
+    top: 370px;
+}
+.section_header{
+    text-align: center;
+    font-size: 30px;
+    color: $white;
+ 
+
+}
+.Images{
+    display: flex;
+    justify-content: space-evenly;
+    >img{
+        width: 18%;
+    }
 }

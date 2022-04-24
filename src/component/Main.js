@@ -105,13 +105,13 @@ function Main() {
           <buton className={Styles.btn2}>Create A Free Account</buton>
         </div>
       </div>
-      <div>
-        <h4> As featured in</h4>
-        <div>
+      <div className={Styles.featured}>
+        <h4 className={Styles.section_header}> As featured in</h4>
+        <div className={Styles.Images}>
           {
             img.map((e)=>{
               return(
-                <img src={e.image} alt = "logo"/>
+                <img src={e} alt = "logo"/>
               )
             })
           }
