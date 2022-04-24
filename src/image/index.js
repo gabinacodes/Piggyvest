@@ -18,9 +18,13 @@ import user2 from "./user2.png"
 import user3 from './user3.png'
 import user4 from './user4.png'
 import avatar from './avaterCombined.png'
+import forbes from './forbes-logo.png'
+import techcruch from './tech-crunch-logo.png'
+import guard from './theguardian-logo.png'
+import techpoint from './techpoint-logo.png'
 const Images ={
     mark, fatima, ellie, ayo, appstore,googleplay,key, bank,shine,dollar,flex,safelock, saving,phone,title,
-    userpic, user2, user3, user4, avatar
+    userpic, user2, user3, user4, avatar,forbes,techcruch,guard,techpoint
 }
 
 export default Images

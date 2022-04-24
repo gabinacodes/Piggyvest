@@ -5,6 +5,7 @@ import bg from '../image/bgimage.png'
 import security from '../data/security.js';
 import savings from '../data/savings';
 import customers from '../data/customer'
+import img from '../data/images';
 
 
 function Main() {
@@ -102,6 +103,18 @@ function Main() {
             PiggyVest to manage their money better, avoid over-spending and be more accountable
           </p>
           <buton className={Styles.btn2}>Create A Free Account</buton>
+        </div>
+      </div>
+      <div>
+        <h4> As featured in</h4>
+        <div>
+          {
+            img.map((e)=>{
+              return(
+                <img src={e.image} alt = "logo"/>
+              )
+            })
+          }
         </div>
       </div>
     </div>
