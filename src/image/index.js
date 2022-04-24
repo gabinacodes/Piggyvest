@@ -13,8 +13,13 @@ import safelock from  "./safelock-icon.svg"
 import saving from "./target-savings-icon.svg"
 import phone from "./save-PHONE.svg"
 import title from "./Title.png"
+import userpic from "./Userpic.png"
+import user2 from "./user2.png"
+import user3 from './user3.png'
+import user4 from './user4.png'
 const Images ={
-    mark, fatima, ellie, ayo, appstore,googleplay,key, bank,shine,dollar,flex,safelock, saving,phone,title
+    mark, fatima, ellie, ayo, appstore,googleplay,key, bank,shine,dollar,flex,safelock, saving,phone,title,
+    userpic, user2, user3, user4
 }
 
 export default Images
