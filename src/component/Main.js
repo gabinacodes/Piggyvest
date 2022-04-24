@@ -101,7 +101,7 @@ function Main() {
           <p>Since launching in 2016, over 1,000,000 people have used 
             PiggyVest to manage their money better, avoid over-spending and be more accountable
           </p>
-          <buton>Create A Free Account</buton>
+          <buton className={Styles.btn2}>Create A Free Account</buton>
         </div>
       </div>
     </div>

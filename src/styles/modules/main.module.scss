@@ -184,3 +184,33 @@
         }
     }
 }
+.overview{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 370px;
+    background-color: $white;
+    padding: 4%;
+    >div{
+        width: 40%;
+    }
+}
+.history{
+    margin-top: 11%;
+    >h4{
+        color: $bgcolor;
+        font-size: 35px;
+ 
+    }
+    >p{
+        padding: 0 10% 5% 0;
+    }
+   
+}
+.btn2{
+    @include btn;
+    width: 50%;
+    height: 130px;
+    background-color: $bgcolor;
+    padding: 5%;
+}

@@ -229,4 +229,43 @@
 .review_box > div > div > div {
   width: 50%;
 }
+
+.overview {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  top: 370px;
+  background-color: white;
+  padding: 4%;
+}
+
+.overview > div {
+  width: 40%;
+}
+
+.history {
+  margin-top: 11%;
+}
+
+.history > h4 {
+  color: #083E9E;
+  font-size: 35px;
+}
+
+.history > p {
+  padding: 0 10% 5% 0;
+}
+
+.btn2 {
+  border: 2px hidden;
+  border-radius: 7px 7px 7px 0;
+  width: 50%;
+  height: 130px;
+  background-color: #083E9E;
+  padding: 5%;
+}
 /*# sourceMappingURL=main.module.css.map */
